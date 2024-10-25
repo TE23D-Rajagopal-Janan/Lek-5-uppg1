@@ -4,24 +4,63 @@
   justify-content: space-around;
 }
 .röd-box {
+  display: flex;
+  flex-direction: row;
   border: 3px solid red;
   border-radius: 5px;
   border-color: red;
   min-width: 200px;
   min-height: 50px;
   text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+h1{
+  display: flex;
+  border: 3px solid black;
+  background-color: cyan;
+  width: 200px;
+  justify-content: center;
+}
+.länkar {
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  width: 400px;
 }
 .grön-box {
-  background-color: green;
+  border: 3px solid orange;
+  border-radius: 5px;
   min-width: 200px;
   min-height: 150px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .blå-box {
-  background-color: blue;
+  border: 3px solid yellow;
+  border-radius: 5px;
   min-width: 200px;
   min-height: 250px;
 }
 body {
   background-color: beige;
+}
+#Rubrik1{
+  display: flex;
+  border: 3px solid black;
+  background-color: yellow;
+  justify-content: center;
+  width: 50%;
+  height: 20%;  
+
+}
+#Rubrik2{
+  display: flex;
+  border: 3px solid black;
+  background-color: pink;
+  justify-content: center;
+  width: 50%;
+  height: 20%;  
 }
